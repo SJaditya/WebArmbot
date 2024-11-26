@@ -4,7 +4,8 @@ ESP8266-Powered WiFi Car with Interactive 3-Servo Arm
 
 Synopsis:
 
-The ESP8266 Car with 3-Servo Arm project introduces an innovative robotic platform powered by the ESP8266 WiFi module. This project seamlessly integrates motor control for movement with a versatile three-servo arm, providing users with a unique web-based interface to interact with and control the car and its manipulative arm remotely. This synthesis of hardware and software engineering opens avenues for both educational exploration and practical applications.
+The ESP8266 Car with 3-Servo Arm project introduces an innovative robotic platform powered by the ESP8266 WiFi module. This project seamlessly integrates motor control for movement with a versatile three-servo arm, providing users with a unique web-based interface to interact with and control the car and its manipulative arm remotely. This synthesis of hardware and software engineering opens avenues for both educational exploration and practical applications.![webarmbot concept](https://github.com/user-attachments/assets/a82da8e6-78d2-491d-9f25-988b9a43ea1a)
+
 
 Circuit Diagram:
 
@@ -42,7 +43,8 @@ Web Interface:
 - Implements a basic login mechanism for the web interface.
 - Generates an HTML-based control panel with buttons and sliders for forward, backward, left, right movements, and servo control.
 - Utilizes JavaScript to send asynchronous XMLHttpRequests to the server when interacting with the controls.
-  
+  ![Wifi Interface](https://github.com/user-attachments/assets/90c5b231-2bfe-48ea-b029-e60d2e7bedf2)
+
 Handling HTTP Requests:
 - `HTTP_handleRoot()`: Manages the root endpoint, serving the main control panel page.
 - `HTTP_handleLogin()`: Handles login requests, authenticating users with a predefined username and password.
